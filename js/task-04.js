@@ -11,10 +11,10 @@ refs.incrementButton.addEventListener("click", additional);
 
 function additional() {
   counterValue += 1;
-  refs.counter.innerHTML = counterValue;
+  refs.counter.textContent = counterValue;
 }
 
 function subtraction() {
   counterValue -= 1;
-  refs.counter.innerHTML = counterValue;
+  refs.counter.textContent = counterValue;
 }
